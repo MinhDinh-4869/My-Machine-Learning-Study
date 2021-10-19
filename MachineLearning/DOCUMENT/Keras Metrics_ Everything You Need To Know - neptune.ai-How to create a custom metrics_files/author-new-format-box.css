@@ -1,0 +1,186 @@
+/* line 6, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__author--style2 {
+  display: flex;
+}
+@media (min-width: 1200px) {
+  /* line 6, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__author--style2 {
+    display: none;
+  }
+}
+/* line 14, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+/* line 21, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial li::before {
+  display: none;
+}
+/* line 25, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial a {
+  display: block;
+}
+/* line 32, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial-tw::before, .article__authorSocial-lk::before, .article__authorSocial-www::before {
+  content: '';
+  display: block;
+}
+/* line 39, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial-lk::before {
+  width: 21px;
+  height: 21px;
+  background-image: url("../img/icon-lkd.svg");
+}
+/* line 47, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial-tw::before {
+  width: 22px;
+  height: 21px;
+  background-image: url("../img/icon-tw.svg");
+}
+/* line 55, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial-www::before {
+  width: 22px;
+  height: 21px;
+  object-fit: contain;
+  object-position: center;
+  background-image: url("../img/icon-www.svg");
+}
+/* line 64, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial-name {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  margin-right: 1.5em;
+}
+@media (min-width: 576px) {
+  /* line 64, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__authorSocial-name {
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 64, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__authorSocial-name {
+    font-size: 18px;
+    line-height: 28.8px;
+  }
+}
+/* line 81, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial-single {
+  margin-right: 1em;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* line 85, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial-single:hover, .article__authorSocial-single:focus {
+  filter: brightness(0);
+}
+/* line 90, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorSocial-single:last-child {
+  margin-right: 0;
+}
+/* line 96, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorContent {
+  flex-basis: calc(100% - 200px);
+}
+@media (min-width: 576px) {
+  /* line 96, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__authorContent {
+    flex-basis: calc(100% - 140px);
+  }
+}
+@media (min-width: 1200px) {
+  /* line 96, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__authorContent {
+    flex-basis: calc(100% - 150px);
+  }
+}
+/* line 107, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorContent-name {
+  font-size: 18px;
+  line-height: 22.59px;
+  font-weight: 700;
+}
+@media (min-width: 576px) {
+  /* line 107, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__authorContent-name {
+    font-size: 22px;
+    line-height: 27.61px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 107, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__authorContent-name {
+    font-size: 24px;
+    line-height: 30.12px;
+  }
+}
+/* line 123, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorContent-text {
+  margin: 1.2em 0;
+  font-size: 15px;
+  line-height: 24px;
+}
+@media (min-width: 576px) {
+  /* line 123, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__authorContent-text {
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 123, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__authorContent-text {
+    font-size: 18px;
+    line-height: 28.8px;
+  }
+}
+/* line 140, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__authorImage {
+  flex-basis: 130px;
+  flex-shrink: 0;
+  margin-bottom: 1.7em;
+  flex-shrink: 0;
+}
+@media (min-width: 576px) {
+  /* line 140, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__authorImage {
+    flex-basis: 140px;
+    margin-bottom: 0;
+    margin-right: 1.2em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 140, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__authorImage {
+    flex-basis: 150px;
+    margin-right: 2em;
+  }
+}
+/* line 158, ../scss/gutenberg-css/author-new-format-box.scss */
+.article__author img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+@media (min-width: 576px) {
+  /* line 158, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__author img {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 158, ../scss/gutenberg-css/author-new-format-box.scss */
+  .article__author img {
+    width: 150px;
+    height: 150px;
+  }
+}
